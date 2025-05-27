@@ -1,6 +1,10 @@
 // Crea una variable de tipo string.
 // Reemplaza el valor de null por el correspondiente.
 
-const nuevoString = null;
+var nuevoString = null;
+
+var nombre = "Juan";
+
+nuevoString = nombre;
 
 module.exports = nuevoString;
